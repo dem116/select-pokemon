@@ -9,16 +9,23 @@
 <body>
   <div class="container">
     <h1>Información de Pokémon</h1>
-    <div class="pokemon-form">
+    <div class="pokemon-form"> <br>
       <select id="pokemon-select">
         <option value="bulbasaur">Bulbasaur</option>
         <option value="charmander">Charmander</option>
         <option value="squirtle">Squirtle</option>
+        <option value="pikachu">Pikachu</option>
+        <option value="ditto">Ditto</option>
       </select>
       <button id="get-pokemon">Obtener Información</button>
-    </div>
-    
-  </div>
+    <ul id="areaInfo">
+    </ul>
+    <div>
+      <img class="imgB" src="https://st3.depositphotos.com/1393072/37179/v/450/depositphotos_371795604-stock-illustration-joystick-button-with-arrows-line.jpg" alt="botones pokedex">
+      <audio class="audioPokemon" controls muted>
+        <source src="./efectosonido/pokemon-intro.mp3" type="audio/mp3">
+      </audio>
+      
   <script src="./js/script.js"></script>
 </body>
 </html>
